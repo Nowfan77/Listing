@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .logo {
+            font-size: x-large;
+        }
+
+        .new {
+            margin-left: -150px;
+        }
+
+
+
+        @media all and (min-width: 992px) {
+            .navbar .nav-item .dropdown-menu {
+                display: none;
+
+            }
+
+            .navbar .nav-item:hover .dropdown-menu {
+                display: block;
+            }
+
+            .navbar .nav-item .dropdown-menu {
+                margin-top: 0;
+            }
+        }
+
+        a:hover {
+            background-color: #483d8b;
+            opacity: 75%;
+        }
+
+        .list {
+            background-color: #0a437a;
+
+        }
+
+        .textbox {
+            background-color: #f1f2f3;
+        }
+    </style>
+</head>
+<title>Bootstrap demo</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row header p-3 bg-primary">
+            <div class="col-lg-1 ms-5"></div>
+            <div class="col-lg-1"><a class="text-decoration-none text-white lang">English</a></div>
+            <div class="col-lg-1"><a class="text-decoration-none text-white lang"> മലയാളം</a></div>
+            <div class="col-lg-4 ms-3"></div>
+            <div class="col-lg-3"><i class="fa-solid fa-cloud text-light"></i><a
+                    class="text-decoration-none text-white lang">
+                    Thiruvananthapuram 31°C</a>
+                <i class="fa-sharp fa-solid fa-envelope ms-3 text-light"></i>
+                <i class="fa-solid fa-house ms-3 text-light"></i>
+            </div>
+            <div class="row d-lg-none">
+                <div class="col-9"></div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-4"></div>
+                        <div class="col-6 ">
+
+                            <nav class="navbar navbar-expand-lg">
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                        <i class="fa-brands fa-facebook text-primary"></i>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    About Technopark
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Thiruvananthapuram/kerala</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Map/how to reach</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Tenders</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Life at Technopark
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Cultural diasporaactivities &
+                                                            events</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">News</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="#"></a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Infrastructure
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Why Technopark ?</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Phase wise details</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Setting up a company</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Companies
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Company a-z listing</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Job search</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#"> Company login</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="nav-item ">
+                                                <a class="nav-link  active" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Contact
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <form class="d-flex" role="search">
+
+                                            <button class="btn btn-outline-success" type="submit"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- header -->
+
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-1"><img src="./technopark-logo.png" alt=""></div>
+            <div class="col-lg-5"></div>
+            <div class="col-lg-3 mt-5 logo d-none d-lg-block">
+                <i class="fa-brands fa-facebook text-primary"></i>
+                <i class="fa-brands fa-twitter text-primary"></i>
+                <i class="fa-brands fa-linkedin text-primary"></i>
+                <i class="fa-brands fa-instagram text-danger"></i>
+                <i class="fa-brands fa-youtube text-primary"></i>
+                <i class="fa-solid fa-wifi text-warning"></i>
+            </div>
+            <div class="col-lg-1 new mt-3 d-none d-lg-block"><img src="./govt-of-kerala.png" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col d-none d-lg-block">
+                <div class="dropDown">
+                    <span><a href="#"
+                            class="fontOf text-decoration-none text-black background-hover pt-3 pb-3 ps-1 pe-1">About
+                            Technopark<i class="fa-solid fa-angle-down ms-3"></i></a></span>
+                    <span><a href="#"
+                            class="fontOf text-decoration-none text-black background-hover pt-3 pb-3 ps-1 pe-1">Life
+                            at Technopark<i class="fa-solid fa-angle-down ms-3"></i></a></span>
+                    <span><a href="#"
+                            class="fontOf text-decoration-none text-black background-hover pt-3 pb-3 ps-1 pe-1">Infrastructure
+                            <i class="fa-solid fa-angle-down ms-3"></i></a></span>
+                    <span><a href="#"
+                            class="fontOf text-decoration-none text-black background-hover pt-3 pb-3 ps-1 pe-1">Companies
+                            <i class="fa-solid fa-angle-down ms-3"></i></a></span>
+                    <span><a href="#"
+                            class="fontOf text-decoration-none text-black background-hover pt-3 pb-3 ps-1 pe-1">Contact
+                            us
+                            <i class="fa-solid fa-angle-down ms-3"></i></a></span>
+                    <span style="border-left: 1px solid black;"></span>
+                    <span><a href="#" class="fontOf text-decoration-none text-black background-hover pt-3 pb-3 pe-3">
+                            <i class="fa-solid fa-magnifying-glass ms-3"></i></a></span>
+                </div>
+            </div>
+        </div>
+        <!-- logos -->
+
+
+        <div class="row list">
+            <div class="col-lg-2 mt-4 ms-5 pb-5"><button class="btn border-1 border-white text-white">COMPANY A-Z
+                    LISTING</button>
+            </div>
+            <div class="col-lg-6 col-7"></div>
+            <div class="col-2 text-white mt-4 ms-5">
+                <p>Companies</p>
+            </div>
+        </div>
+        <!-- center content -->
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-lg-4 col-12">
+                    <h3 class="text-success">A-Z Listing</h3>
+                    <img src="./Vriteup L.jpg" alt="" height="300px">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h3>Vriteup</h3>
+                    <p>Vriteup is a leading technology media, dedicated to obsessively profiling from startups to
+                        established firms, reviewing new Internet and tech products and breaking tech news. Vriteup’s
+                        mission is to lead companies through critical Transformation of Values by redefining
+                        storytelling and shaping the digital revolution in a new voice. Vriteup do this through an
+                        in-depth knowing of how people form views and people causes that “nudge” their actions with new
+                        formats and cutting-edge technologies.
+                    </p>
+                    <h4>Domain expertise : Digital technology services, Web, Mobile, Design, Social, and Cloud.</h4>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row" style="background-color: #f2f2f2;">
+                <div class="row mx-auto p-4">
+                    <div class="col-md-5 col-12">
+                        <div class="row ms-lg-5">
+
+                        </div>
+                        <div class="row">
+                            <div class="col text-muted ms-5">
+                                <i class="fa-regular fa-clock me-1"></i><span>Technopark News Letter Archieves</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="row">
+                            <div class="col-3"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="background-color: #CACACA; font-size: 14px;">
+                <div class="col text-muted ms-5">Disclaimer Official Site of TECHNOPARK . Copyright © technopark.org.
+                    2022 WebSite
+                    Powered by<a><img src="./Asset/images/ezenit.png" alt=""></a></div>
+                <div class="col"></div>
+                <div class="col d-none d-lg-block ms-3 my-auto text-white">
+                    <div class="row media-adjust">
+                        <div class="col">
+                            <i class="fa-brands fa-facebook-f falogo rounded-circle me-2"
+                                style="padding: 7px 10px 7px  10px;"></i>
+                            <i class="fa-brands fa-twitter f falogo rounded-circle bg-primary me-2"
+                                style="padding: 7px;"></i>
+                            <i class="fa-solid fa-rss falogo rounded-circle bg-warning me-2" style="padding: 7px;"></i>
+                            <i class="fa-brands fa-linkedin-in falogo rounded-circle me-2" style="padding: 7px;"></i>
+                            <i class="fa-solid fa-play  falogo rounded-circle bg-danger me-2" style="padding: 7px;"></i>
+
+                            <div class="insta" style="display: inline; margin-left: 42px;"><img
+                                    src="./Asset/images/insta.png" height="35px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
